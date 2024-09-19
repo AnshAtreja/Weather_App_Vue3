@@ -1,0 +1,131 @@
+{
+    "cnt": 25,
+    "list": [
+      {
+        "coord": { "lon": 72.8479, "lat": 19.0144 },
+        "weather": [{ "icon": "10d" }],
+        "name": "Mumbai"
+      },
+      {
+        "coord": { "lon": 77.2311, "lat": 28.6128 },
+        "weather": [{ "icon": "50d" }],
+        "name": "New Delhi"
+      },
+      {
+        "coord": { "lon": 88.3639, "lat": 22.5726 },
+        "weather": [{ "icon": "01d" }],
+        "name": "Kolkata"
+      },
+      {
+        "coord": { "lon": 80.2785, "lat": 13.0878 },
+        "weather": [{ "icon": "02d" }],
+        "name": "Chennai"
+      },
+      {
+        "coord": { "lon": 77.5946, "lat": 12.9716 },
+        "weather": [{ "icon": "03d" }],
+        "name": "Bangalore"
+      },
+      {
+        "coord": { "lon": 73.8567, "lat": 18.5204 },
+        "weather": [{ "icon": "04d" }],
+        "name": "Pune"
+      },
+      {
+        "coord": { "lon": 72.5714, "lat": 23.0225 },
+        "weather": [{ "icon": "09d" }],
+        "name": "Ahmedabad"
+      },
+      {
+        "coord": { "lon": 75.8577, "lat": 22.7196 },
+        "weather": [{ "icon": "10d" }],
+        "name": "Indore"
+      },
+      {
+        "coord": { "lon": 78.4867, "lat": 17.385 },
+        "weather": [{ "icon": "11d" }],
+        "name": "Hyderabad"
+      },
+      {
+        "coord": { "lon": 73.8478, "lat": 15.2993 },
+        "weather": [{ "icon": "13d" }],
+        "name": "Panaji"
+      },
+      {
+        "coord": { "lon": 74.8723, "lat": 31.6338 },
+        "weather": [{ "icon": "50d" }],
+        "name": "Amritsar"
+      },
+      {
+        "coord": { "lon": 80.9462, "lat": 26.8467 },
+        "weather": [{ "icon": "02d" }],
+        "name": "Lucknow"
+      },
+      {
+        "coord": { "lon": 75.8573, "lat": 26.9124 },
+        "weather": [{ "icon": "01d" }],
+        "name": "Jaipur"
+      },
+      {
+        "coord": { "lon": 85.324, "lat": 23.3441 },
+        "weather": [{ "icon": "04d" }],
+        "name": "Ranchi"
+      },
+      {
+        "coord": { "lon": 82.9739, "lat": 25.3176 },
+        "weather": [{ "icon": "09d" }],
+        "name": "Varanasi"
+      },
+      {
+        "coord": { "lon": 74.7973, "lat": 34.0837 },
+        "weather": [{ "icon": "10d" }],
+        "name": "Srinagar"
+      },
+      {
+        "coord": { "lon": 76.3667, "lat": 30.7333 },
+        "weather": [{ "icon": "50d" }],
+        "name": "Chandigarh"
+      },
+      {
+        "coord": { "lon": 79.0882, "lat": 21.1458 },
+        "weather": [{ "icon": "11d" }],
+        "name": "Nagpur"
+      },
+      {
+        "coord": { "lon": 74.124, "lat": 15.8497 },
+        "weather": [{ "icon": "01d" }],
+        "name": "Belgaum"
+      },
+      {
+        "coord": { "lon": 72.5873, "lat": 23.0305 },
+        "weather": [{ "icon": "02d" }],
+        "name": "Gandhinagar"
+      },
+      {
+        "coord": { "lon": 85.851, "lat": 20.2961 },
+        "weather": [{ "icon": "03d" }],
+        "name": "Bhubaneswar"
+      },
+      {
+        "coord": { "lon": 78.7047, "lat": 10.7905 },
+        "weather": [{ "icon": "04d" }],
+        "name": "Tiruchirappalli"
+      },
+      {
+        "coord": { "lon": 76.9542, "lat": 8.5241 },
+        "weather": [{ "icon": "09d" }],
+        "name": "Thiruvananthapuram"
+      },
+      {
+        "coord": { "lon": 73.048, "lat": 26.2389 },
+        "weather": [{ "icon": "10d" }],
+        "name": "Jodhpur"
+      },
+      {
+        "coord": { "lon": 75.8333, "lat": 11.2504 },
+        "weather": [{ "icon": "11d" }],
+        "name": "Kozhikode"
+      }
+    ]
+  }
+  

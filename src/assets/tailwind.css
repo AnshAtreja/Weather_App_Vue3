@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600&family=Josefin+Sans:ital,wght@1,100..700&family=New+Amsterdam&family=Protest+Riot&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+    @apply font-sans;
+} */
