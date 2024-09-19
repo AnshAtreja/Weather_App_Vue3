@@ -10,7 +10,8 @@ import { useStore } from 'vuex'
 import mapboxgl from 'mapbox-gl';
 import WeatherModal from './WeatherModal.vue';
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiYW5zaDIwMDIiLCJhIjoiY20wNTYweW9vMDhpNDJrczlhdjRrbG9iaiJ9.xzYg_JNySLQ4oGTTtJnLEQ';
+const mapboxKey = import.meta.env.MAPBOX_API_KEY
+mapboxgl.accessToken = mapboxKey;
 
 const store = useStore();
 const isModalOpen = ref(false);

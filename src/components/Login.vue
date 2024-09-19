@@ -54,17 +54,6 @@ const login = async () => {
     }
 }
 
-const signInWithGoogle = async () => {
-    const { data, error } = await supabase.auth.signInWithOAuth({ provider: 'google' });
-    if (error) {
-        errorMessage.value = error.message;
-    } 
-    else {
-        console.log("User : ", data)
-        router.push('/')
-    }
-}
-
 </script>
 
 <style scoped></style>

@@ -81,8 +81,9 @@ const store = createStore({
       try {
         const cityName = state.city;
         const currentDate = new Date().toISOString().split("T")[0];
+        const visualCrossingKey = import.meta.env.VISUAL_CROSSING_API_KEY
         const response = await fetch(
-          `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${cityName}/${currentDate}?key=NNDCNLZ2TUX7LGWFAWNRPVY63`
+          `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${cityName}/${currentDate}?key=${visualCrossingKey}`
         );
         if (!response.ok) {
           if (response.status === 400) {

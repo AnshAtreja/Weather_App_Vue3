@@ -31,6 +31,7 @@ const city = ref('');
 const suggestions = computed(() => store.state.suggestions);
 const errorMessage = computed(() => store.state.error);
 const isLoading = computed(() => store.getters.isLoading);
+const openWeatherAppId = import.meta.env.OPEN_WEATHER_APP_ID
 
 const selectSuggestion = (suggestion) => {
     city.value = suggestion.display_name;
@@ -52,7 +53,7 @@ const fetchWeather = async () => {
     try {
       console.log("Fetching data...");
       const response = await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?q=${city.value}&appid=607fc0708c7c181a38861d10a275eb27`
+        `https://api.openweathermap.org/data/2.5/weather?q=${city.value}&appid=${openWeatherAppId}`
       );
 
       if (!response.ok) {
